@@ -47,6 +47,13 @@
     <Compile Include="Adapter\FileWriter.cs" />
     <Compile Include="Adapter\ILogger.cs" />
     <Compile Include="Adapter\Logger.cs" />
+    <Compile Include="Bridge\Circle.cs" />
+    <Compile Include="Bridge\IRenderer.cs" />
+    <Compile Include="Bridge\RasterRenderer.cs" />
+    <Compile Include="Bridge\Shape.cs" />
+    <Compile Include="Bridge\Square.cs" />
+    <Compile Include="Bridge\Triangle.cs" />
+    <Compile Include="Bridge\VectorRenderer.cs" />
     <Compile Include="Decorator\Armor.cs" />
     <Compile Include="Decorator\Hero.cs" />
     <Compile Include="Decorator\HeroDecorator.cs" />
@@ -57,10 +64,18 @@
     <Compile Include="Decorator\Warrior.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\ISmartTextReader.cs" />
+    <Compile Include="Proxy\SmartTextChecker.cs" />
+    <Compile Include="Proxy\SmartTextReader.cs" />
+    <Compile Include="Proxy\SmartTextReaderLocker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="test.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

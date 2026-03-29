@@ -6,3 +6,4 @@ C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsL
 C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsLab.exe
 C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsLab.pdb
 C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsLab.exe.config
+C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\bin\Debug\test.txt

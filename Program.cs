@@ -1,5 +1,7 @@
 ﻿using StructuralPatternsLab.Adapter;
+using StructuralPatternsLab.Bridge;
 using StructuralPatternsLab.Decorator;
+using StructuralPatternsLab.Proxy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,6 +37,30 @@ namespace StructuralPatternsLab
 
 			Console.WriteLine(hero.GetDescription());
 			Console.WriteLine("Power: " + hero.GetPower());
+
+			Console.WriteLine("\nЗавдання 3");
+			IRenderer vector = new VectorRenderer();
+			IRenderer raster = new RasterRenderer();
+
+			Shape circle = new Circle(vector);
+			Shape square = new Square(raster);
+			Shape triangle = new Triangle(vector);
+
+			circle.Draw();
+			square.Draw();
+			triangle.Draw();
+
+			Console.WriteLine("\nЗавдання 4");
+			ISmartTextReader reader = new SmartTextReader();
+
+			ISmartTextReader checker = new SmartTextChecker(reader);
+			checker.Read("test.txt");
+
+			Console.WriteLine();
+
+			ISmartTextReader locker = new SmartTextReaderLocker(reader, "secret");
+			locker.Read("secret.txt");
+			locker.Read("test.txt");   
 		}
 	}
 }
