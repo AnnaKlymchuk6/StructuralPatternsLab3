@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\adapter\\fileloggeradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:adapter\\fileloggeradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\adapter\\filewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:adapter\\filewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\adapter\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:adapter\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\adapter\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:adapter\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\decorator\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:decorator\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\decorator\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:decorator\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\decorator\\herodecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:decorator\\herodecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\decorator\\paladin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:decorator\\paladin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\decorator\\ring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:decorator\\ring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\decorator\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:decorator\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\decorator\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:decorator\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\decorator\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:decorator\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Armor.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Armor.cs",
+              "RelativeDocumentMoniker": "Decorator\\Armor.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Armor.cs",
+              "RelativeToolTip": "Decorator\\Armor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:59:27.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HeroDecorator.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\HeroDecorator.cs",
+              "RelativeDocumentMoniker": "Decorator\\HeroDecorator.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\HeroDecorator.cs",
+              "RelativeToolTip": "Decorator\\HeroDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:59:07.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Paladin.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Paladin.cs",
+              "RelativeDocumentMoniker": "Decorator\\Paladin.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Paladin.cs",
+              "RelativeToolTip": "Decorator\\Paladin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:58:56.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hero.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Hero.cs",
+              "RelativeDocumentMoniker": "Decorator\\Hero.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Hero.cs",
+              "RelativeToolTip": "Decorator\\Hero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:52:19.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\Logger.cs",
+              "RelativeDocumentMoniker": "Adapter\\Logger.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\Logger.cs",
+              "RelativeToolTip": "Adapter\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:33:05.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILogger.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\ILogger.cs",
+              "RelativeDocumentMoniker": "Adapter\\ILogger.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\ILogger.cs",
+              "RelativeToolTip": "Adapter\\ILogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:32:09.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileWriter.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\FileWriter.cs",
+              "RelativeDocumentMoniker": "Adapter\\FileWriter.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\FileWriter.cs",
+              "RelativeToolTip": "Adapter\\FileWriter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:33:40.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileLoggerAdapter.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\FileLoggerAdapter.cs",
+              "RelativeDocumentMoniker": "Adapter\\FileLoggerAdapter.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\FileLoggerAdapter.cs",
+              "RelativeToolTip": "Adapter\\FileLoggerAdapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:34:58.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:47:04.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ring.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Ring.cs",
+              "RelativeDocumentMoniker": "Decorator\\Ring.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Ring.cs",
+              "RelativeToolTip": "Decorator\\Ring.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:59:38.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Sword.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Sword.cs",
+              "RelativeDocumentMoniker": "Decorator\\Sword.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Sword.cs",
+              "RelativeToolTip": "Decorator\\Sword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:59:17.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Warrior.cs",
+              "RelativeDocumentMoniker": "Decorator\\Warrior.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Warrior.cs",
+              "RelativeToolTip": "Decorator\\Warrior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:58:33.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mage.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Mage.cs",
+              "RelativeDocumentMoniker": "Decorator\\Mage.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Mage.cs",
+              "RelativeToolTip": "Decorator\\Mage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:58:45.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
