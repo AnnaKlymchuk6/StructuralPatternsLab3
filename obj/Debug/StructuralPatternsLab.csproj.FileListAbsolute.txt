@@ -1,9 +1,9 @@
+C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsLab.csproj.AssemblyReference.cache
+C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsLab.csproj.CoreCompileInputs.cache
+C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\bin\Debug\book.txt
+C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\bin\Debug\test.txt
 C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\bin\Debug\StructuralPatternsLab.exe.config
 C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\bin\Debug\StructuralPatternsLab.exe
 C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\bin\Debug\StructuralPatternsLab.pdb
-C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsLab.csproj.AssemblyReference.cache
-C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsLab.csproj.CoreCompileInputs.cache
 C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsLab.exe
 C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsLab.pdb
-C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\obj\Debug\StructuralPatternsLab.exe.config
-C:\Anna\UNI\2.2\КПЗ\Lab03\StructuralPatternsLab\bin\Debug\test.txt

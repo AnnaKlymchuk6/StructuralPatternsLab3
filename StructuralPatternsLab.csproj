@@ -54,6 +54,9 @@
     <Compile Include="Bridge\Square.cs" />
     <Compile Include="Bridge\Triangle.cs" />
     <Compile Include="Bridge\VectorRenderer.cs" />
+    <Compile Include="Composite\LightElementNode.cs" />
+    <Compile Include="Composite\LightNode.cs" />
+    <Compile Include="Composite\LightTextNode.cs" />
     <Compile Include="Decorator\Armor.cs" />
     <Compile Include="Decorator\Hero.cs" />
     <Compile Include="Decorator\HeroDecorator.cs" />
@@ -62,6 +65,8 @@
     <Compile Include="Decorator\Ring.cs" />
     <Compile Include="Decorator\Sword.cs" />
     <Compile Include="Decorator\Warrior.cs" />
+    <Compile Include="Flyweight\ElementFactory.cs" />
+    <Compile Include="Flyweight\HtmlConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proxy\ISmartTextReader.cs" />
@@ -73,9 +78,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="book.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="test.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
