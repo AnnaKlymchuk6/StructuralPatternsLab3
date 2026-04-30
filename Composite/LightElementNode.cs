@@ -27,6 +27,16 @@ namespace StructuralPatternsLab.Composite
 				this.children = new List<LightNode>();
 			}
 
+			protected override void OnCreated()
+			{
+				Console.WriteLine($"Element <{tagName}> created");
+			}
+
+			protected override void OnRendered()
+			{
+				Console.WriteLine($"Element <{tagName}> rendered");
+			}
+
 			public void AddClass(string className)
 			{
 				cssClasses.Add(className);
