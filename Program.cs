@@ -69,47 +69,36 @@ namespace StructuralPatternsLab
 
 			Console.WriteLine("\nЗавдання 5");
 
-			// <ul>
 			LightElementNode ul = new LightElementNode("ul", true, false);
 
-			// <li>Hello</li>
 			LightElementNode li1 = new LightElementNode("li", true, false);
 			li1.AddChild(new LightTextNode("Hello"));
 
-			// <li>World</li>
 			LightElementNode li2 = new LightElementNode("li", true, false);
 			li2.AddChild(new LightTextNode("World"));
 
-			// додаємо в ul
 			ul.AddChild(li1);
 			ul.AddChild(li2);
 
-			// вивід
-			Console.WriteLine(ul.OuterHTML());
-
+			Console.WriteLine(ul.Render());
+			Console.WriteLine(li1.Render());
+			Console.WriteLine(li2.Render());
 
 
 			Console.WriteLine("\nЗавдання 6");
-
-			// читаємо файл
 			string[] lines = File.ReadAllLines("book.txt");
 
-			// створюємо фабрику
 			ElementFactory factory = new ElementFactory();
 
-			// конвертер
 			HtmlConverter converter = new HtmlConverter(factory);
 
-			// створюємо HTML
 			var html = converter.Convert(lines);
 
-			// вивід HTML
 			foreach (var node in html)
 			{
 				Console.WriteLine(node.OuterHTML());
 			}
 
-			// показуємо "економію"
 			Console.WriteLine($"\nУнікальних елементів (Flyweight): {factory.GetCount()}");
 			Console.WriteLine($"Загальна кількість рядків: {html.Count}");
 		}
