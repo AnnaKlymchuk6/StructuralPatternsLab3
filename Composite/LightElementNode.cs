@@ -76,5 +76,19 @@ namespace StructuralPatternsLab.Composite
 		{
 			return children;
 		}
+
+		public override void Accept(IVisitor visitor)
+		{
+			visitor.VisitElement(this);
+
+			foreach (var child in children)
+			{
+				child.Accept(visitor);
+			}
+		}
+		public string GetTagName()
+		{
+			return tagName;
+		}
 	}
 }

@@ -93,23 +93,30 @@ namespace StructuralPatternsLab
 				Console.WriteLine(node.OuterHTML());
 			}
 
+			Console.WriteLine("\nVisitor:");
 
-			Console.WriteLine("\nЗавдання 6");
-			string[] lines = File.ReadAllLines("book.txt");
+			var visitor = new TagCountVisitor();
+			ul.Accept(visitor);
+			visitor.Print();
 
-			ElementFactory factory = new ElementFactory();
 
-			HtmlConverter converter = new HtmlConverter(factory);
+			//		Console.WriteLine("\nЗавдання 6");
+			//		string[] lines = File.ReadAllLines("book.txt");
 
-			var html = converter.Convert(lines);
+			//		ElementFactory factory = new ElementFactory();
 
-			foreach (var node in html)
-			{
-				Console.WriteLine(node.OuterHTML());
-			}
+			//		HtmlConverter converter = new HtmlConverter(factory);
 
-			Console.WriteLine($"\nУнікальних елементів (Flyweight): {factory.GetCount()}");
-			Console.WriteLine($"Загальна кількість рядків: {html.Count}");
+			//		var html = converter.Convert(lines);
+
+			//		foreach (var node in html)
+			//		{
+			//			Console.WriteLine(node.OuterHTML());
+			//		}
+
+			//		Console.WriteLine($"\nУнікальних елементів (Flyweight): {factory.GetCount()}");
+			//		Console.WriteLine($"Загальна кількість рядків: {html.Count}");
+			//	}
 		}
 	}
 }
