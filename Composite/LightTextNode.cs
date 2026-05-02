@@ -24,5 +24,10 @@ namespace StructuralPatternsLab.Composite
 		{
 			return text;
 		}
+
+		public override void Accept(IVisitor visitor)
+		{
+			visitor.VisitText(this);
+		}
 	}
 }

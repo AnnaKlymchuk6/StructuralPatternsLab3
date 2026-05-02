@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\flyweight\\htmlconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:flyweight\\htmlconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\flyweight\\elementfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:flyweight\\elementfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\composite\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:composite\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\flyweight\\htmlconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:flyweight\\htmlconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\flyweight\\elementfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:flyweight\\elementfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\proxy\\smarttextreaderlocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DepthFirstIterator.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\DepthFirstIterator.cs",
               "RelativeDocumentMoniker": "Composite\\DepthFirstIterator.cs",
@@ -167,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ILightNodeIterator.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\ILightNodeIterator.cs",
               "RelativeDocumentMoniker": "Composite\\ILightNodeIterator.cs",
@@ -180,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LightElementNode.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightElementNode.cs",
               "RelativeDocumentMoniker": "Composite\\LightElementNode.cs",
@@ -193,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LightNode.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightNode.cs",
               "RelativeDocumentMoniker": "Composite\\LightNode.cs",
@@ -206,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LightTextNode.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightTextNode.cs",
               "RelativeDocumentMoniker": "Composite\\LightTextNode.cs",
@@ -219,27 +219,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ElementFactory.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\ElementFactory.cs",
               "RelativeDocumentMoniker": "Flyweight\\ElementFactory.cs",
-              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\ElementFactory.cs",
-              "RelativeToolTip": "Flyweight\\ElementFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\ElementFactory.cs*",
+              "RelativeToolTip": "Flyweight\\ElementFactory.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:26:44.338Z"
+              "WhenOpened": "2026-03-29T20:26:44.338Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T14:47:04.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HtmlConverter.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\HtmlConverter.cs",
+              "RelativeDocumentMoniker": "Flyweight\\HtmlConverter.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\HtmlConverter.cs*",
+              "RelativeToolTip": "Flyweight\\HtmlConverter.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:26:31.565Z",
               "EditorCaption": ""
             },
             {
@@ -253,19 +267,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T18:23:03.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HtmlConverter.cs",
-              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\HtmlConverter.cs",
-              "RelativeDocumentMoniker": "Flyweight\\HtmlConverter.cs",
-              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\HtmlConverter.cs",
-              "RelativeToolTip": "Flyweight\\HtmlConverter.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwA8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:26:31.565Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
