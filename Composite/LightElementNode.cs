@@ -6,75 +6,75 @@ using System.Threading.Tasks;
 
 namespace StructuralPatternsLab.Composite
 {
-	using System.Collections.Generic;
-
-	namespace StructuralPatternsLab.Composite
+	class LightElementNode : LightNode
 	{
-		class LightElementNode : LightNode
+		private string tagName;
+		private bool isBlock;
+		private bool isSelfClosing;
+		private List<string> cssClasses;
+		private List<LightNode> children;
+
+		public LightElementNode(string tagName, bool isBlock, bool isSelfClosing)
 		{
-			private string tagName;
-			private bool isBlock;
-			private bool isSelfClosing;
-			private List<string> cssClasses;
-			private List<LightNode> children;
+			this.tagName = tagName;
+			this.isBlock = isBlock;
+			this.isSelfClosing = isSelfClosing;
+			this.cssClasses = new List<string>();
+			this.children = new List<LightNode>();
+		}
 
-			public LightElementNode(string tagName, bool isBlock, bool isSelfClosing)
+		protected override void OnCreated()
+		{
+			Console.WriteLine($"Element <{tagName}> created");
+		}
+
+		protected override void OnRendered()
+		{
+			Console.WriteLine($"Element <{tagName}> rendered");
+		}
+
+		public void AddClass(string className)
+		{
+			cssClasses.Add(className);
+		}
+
+		public void AddChild(LightNode node)
+		{
+			children.Add(node);
+		}
+
+		public override string InnerHTML()
+		{
+			string result = "";
+
+			foreach (var child in children)
 			{
-				this.tagName = tagName;
-				this.isBlock = isBlock;
-				this.isSelfClosing = isSelfClosing;
-				this.cssClasses = new List<string>();
-				this.children = new List<LightNode>();
+				result += child.OuterHTML();
 			}
 
-			protected override void OnCreated()
+			return result;
+		}
+
+		public override string OuterHTML()
+		{
+			string classes = "";
+
+			if (cssClasses.Count > 0)
 			{
-				Console.WriteLine($"Element <{tagName}> created");
+				classes = " class=\"" + string.Join(" ", cssClasses) + "\"";
 			}
 
-			protected override void OnRendered()
+			if (isSelfClosing)
 			{
-				Console.WriteLine($"Element <{tagName}> rendered");
+				return $"<{tagName}{classes}/>";
 			}
 
-			public void AddClass(string className)
-			{
-				cssClasses.Add(className);
-			}
+			return $"<{tagName}{classes}>{InnerHTML()}</{tagName}>";
+		}
 
-			public void AddChild(LightNode node)
-			{
-				children.Add(node);
-			}
-
-			public override string InnerHTML()
-			{
-				string result = "";
-
-				foreach (var child in children)
-				{
-					result += child.OuterHTML();
-				}
-
-				return result;
-			}
-
-			public override string OuterHTML()
-			{
-				string classes = "";
-
-				if (cssClasses.Count > 0)
-				{
-					classes = " class=\"" + string.Join(" ", cssClasses) + "\"";
-				}
-
-				if (isSelfClosing)
-				{
-					return $"<{tagName}{classes}/>";
-				}
-
-				return $"<{tagName}{classes}>{InnerHTML()}</{tagName}>";
-			}
+		public List<LightNode> GetChildren()
+		{
+			return children;
 		}
 	}
 }
