@@ -76,8 +76,11 @@ namespace StructuralPatternsLab
 			LightElementNode li2 = new LightElementNode("li", true, false);
 			li2.AddChild(new LightTextNode("World"));
 
-			ul.AddChild(li1);
-			ul.AddChild(li2);
+			ICommand add1 = new AddChildCommand(ul, li1);
+			ICommand add2 = new AddChildCommand(ul, li2);
+
+			add1.Execute();
+			add2.Execute();
 
 			Console.WriteLine(ul.Render());
 			Console.WriteLine(li1.Render());
