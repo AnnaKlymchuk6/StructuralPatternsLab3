@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\composite\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:composite\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\composite\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:composite\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\composite\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:composite\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\flyweight\\htmlconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:flyweight\\htmlconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\flyweight\\elementfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:flyweight\\elementfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\composite\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:composite\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\composite\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:composite\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\composite\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:composite\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\composite\\ilightnodeiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:composite\\ilightnodeiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\composite\\depthfirstiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:composite\\depthfirstiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\proxy\\smarttextreaderlocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -147,44 +155,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "SmartTextReaderLocker.cs",
-              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Proxy\\SmartTextReaderLocker.cs",
-              "RelativeDocumentMoniker": "Proxy\\SmartTextReaderLocker.cs",
-              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Proxy\\SmartTextReaderLocker.cs",
-              "RelativeToolTip": "Proxy\\SmartTextReaderLocker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "DepthFirstIterator.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\DepthFirstIterator.cs",
+              "RelativeDocumentMoniker": "Composite\\DepthFirstIterator.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\DepthFirstIterator.cs",
+              "RelativeToolTip": "Composite\\DepthFirstIterator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T18:23:03.984Z"
+              "WhenOpened": "2026-05-02T14:18:59.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "ILightNodeIterator.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\ILightNodeIterator.cs",
+              "RelativeDocumentMoniker": "Composite\\ILightNodeIterator.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\ILightNodeIterator.cs",
+              "RelativeToolTip": "Composite\\ILightNodeIterator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T17:16:17.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LightElementNode.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightElementNode.cs",
               "RelativeDocumentMoniker": "Composite\\LightElementNode.cs",
               "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightElementNode.cs",
               "RelativeToolTip": "Composite\\LightElementNode.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T19:56:01.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LightNode.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightNode.cs",
               "RelativeDocumentMoniker": "Composite\\LightNode.cs",
               "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightNode.cs",
               "RelativeToolTip": "Composite\\LightNode.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T19:55:50.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "LightTextNode.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightTextNode.cs",
               "RelativeDocumentMoniker": "Composite\\LightTextNode.cs",
@@ -197,45 +219,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ElementFactory.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\ElementFactory.cs",
               "RelativeDocumentMoniker": "Flyweight\\ElementFactory.cs",
-              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\ElementFactory.cs",
-              "RelativeToolTip": "Flyweight\\ElementFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\ElementFactory.cs*",
+              "RelativeToolTip": "Flyweight\\ElementFactory.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:26:44.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HtmlConverter.cs",
-              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\HtmlConverter.cs",
-              "RelativeDocumentMoniker": "Flyweight\\HtmlConverter.cs",
-              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\HtmlConverter.cs",
-              "RelativeToolTip": "Flyweight\\HtmlConverter.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwA8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:26:31.565Z",
+              "WhenOpened": "2026-03-29T20:26:44.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAswFIAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T14:47:04.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "HtmlConverter.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\HtmlConverter.cs",
+              "RelativeDocumentMoniker": "Flyweight\\HtmlConverter.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Flyweight\\HtmlConverter.cs*",
+              "RelativeToolTip": "Flyweight\\HtmlConverter.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:26:31.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SmartTextReaderLocker.cs",
+              "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Proxy\\SmartTextReaderLocker.cs",
+              "RelativeDocumentMoniker": "Proxy\\SmartTextReaderLocker.cs",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Proxy\\SmartTextReaderLocker.cs",
+              "RelativeToolTip": "Proxy\\SmartTextReaderLocker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T18:23:03.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SmartTextChecker.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Proxy\\SmartTextChecker.cs",
               "RelativeDocumentMoniker": "Proxy\\SmartTextChecker.cs",
@@ -247,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ISmartTextReader.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Proxy\\ISmartTextReader.cs",
               "RelativeDocumentMoniker": "Proxy\\ISmartTextReader.cs",
@@ -259,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SmartTextReader.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Proxy\\SmartTextReader.cs",
               "RelativeDocumentMoniker": "Proxy\\SmartTextReader.cs",
@@ -271,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Shape.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Bridge\\Shape.cs",
               "RelativeDocumentMoniker": "Bridge\\Shape.cs",
@@ -283,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IRenderer.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Bridge\\IRenderer.cs",
               "RelativeDocumentMoniker": "Bridge\\IRenderer.cs",
@@ -295,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "RasterRenderer.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Bridge\\RasterRenderer.cs",
               "RelativeDocumentMoniker": "Bridge\\RasterRenderer.cs",
@@ -307,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Circle.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Bridge\\Circle.cs",
               "RelativeDocumentMoniker": "Bridge\\Circle.cs",
@@ -319,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "VectorRenderer.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Bridge\\VectorRenderer.cs",
               "RelativeDocumentMoniker": "Bridge\\VectorRenderer.cs",
@@ -331,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Ring.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Ring.cs",
               "RelativeDocumentMoniker": "Decorator\\Ring.cs",
@@ -343,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "HeroDecorator.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\HeroDecorator.cs",
               "RelativeDocumentMoniker": "Decorator\\HeroDecorator.cs",
@@ -355,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Mage.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Mage.cs",
               "RelativeDocumentMoniker": "Decorator\\Mage.cs",
@@ -367,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Hero.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Hero.cs",
               "RelativeDocumentMoniker": "Decorator\\Hero.cs",
@@ -379,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Armor.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Armor.cs",
               "RelativeDocumentMoniker": "Decorator\\Armor.cs",
@@ -391,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Warrior.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Warrior.cs",
               "RelativeDocumentMoniker": "Decorator\\Warrior.cs",
@@ -403,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "FileLoggerAdapter.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\FileLoggerAdapter.cs",
               "RelativeDocumentMoniker": "Adapter\\FileLoggerAdapter.cs",
@@ -415,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "FileWriter.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\FileWriter.cs",
               "RelativeDocumentMoniker": "Adapter\\FileWriter.cs",
@@ -427,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Logger.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\Logger.cs",
               "RelativeDocumentMoniker": "Adapter\\Logger.cs",
@@ -439,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "ILogger.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Adapter\\ILogger.cs",
               "RelativeDocumentMoniker": "Adapter\\ILogger.cs",
@@ -451,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "test.txt",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\test.txt",
               "RelativeDocumentMoniker": "test.txt",
@@ -463,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Triangle.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Bridge\\Triangle.cs",
               "RelativeDocumentMoniker": "Bridge\\Triangle.cs",
@@ -475,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Square.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Bridge\\Square.cs",
               "RelativeDocumentMoniker": "Bridge\\Square.cs",
@@ -487,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Sword.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Sword.cs",
               "RelativeDocumentMoniker": "Decorator\\Sword.cs",
@@ -499,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Paladin.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Decorator\\Paladin.cs",
               "RelativeDocumentMoniker": "Decorator\\Paladin.cs",

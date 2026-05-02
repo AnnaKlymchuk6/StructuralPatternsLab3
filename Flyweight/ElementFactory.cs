@@ -1,5 +1,4 @@
 ﻿using StructuralPatternsLab.Composite;
-using StructuralPatternsLab.Composite.StructuralPatternsLab.Composite;
 using System;
 using System.Collections.Generic;
 using System.Linq;

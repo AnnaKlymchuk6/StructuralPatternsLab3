@@ -1,7 +1,6 @@
 ﻿using StructuralPatternsLab.Adapter;
 using StructuralPatternsLab.Bridge;
 using StructuralPatternsLab.Composite;
-using StructuralPatternsLab.Composite.StructuralPatternsLab.Composite;
 using StructuralPatternsLab.Decorator;
 using StructuralPatternsLab.Flyweight;
 using StructuralPatternsLab.Proxy;
@@ -83,6 +82,16 @@ namespace StructuralPatternsLab
 			Console.WriteLine(ul.Render());
 			Console.WriteLine(li1.Render());
 			Console.WriteLine(li2.Render());
+
+			Console.WriteLine("\nIterator:");
+
+			var iterator = new DepthFirstIterator(ul);
+
+			while (iterator.HasNext())
+			{
+				var node = iterator.Next();
+				Console.WriteLine(node.OuterHTML());
+			}
 
 
 			Console.WriteLine("\nЗавдання 6");

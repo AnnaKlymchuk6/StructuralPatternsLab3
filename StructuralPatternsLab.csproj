@@ -54,6 +54,8 @@
     <Compile Include="Bridge\Square.cs" />
     <Compile Include="Bridge\Triangle.cs" />
     <Compile Include="Bridge\VectorRenderer.cs" />
+    <Compile Include="Composite\DepthFirstIterator.cs" />
+    <Compile Include="Composite\ILightNodeIterator.cs" />
     <Compile Include="Composite\LightElementNode.cs" />
     <Compile Include="Composite\LightNode.cs" />
     <Compile Include="Composite\LightTextNode.cs" />
