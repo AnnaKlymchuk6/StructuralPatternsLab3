@@ -54,12 +54,15 @@
     <Compile Include="Bridge\Square.cs" />
     <Compile Include="Bridge\Triangle.cs" />
     <Compile Include="Bridge\VectorRenderer.cs" />
+    <Compile Include="Composite\AddChildCommand.cs" />
     <Compile Include="Composite\DepthFirstIterator.cs" />
+    <Compile Include="Composite\ICommand.cs" />
     <Compile Include="Composite\ILightNodeIterator.cs" />
     <Compile Include="Composite\IVisitor.cs" />
     <Compile Include="Composite\LightElementNode.cs" />
     <Compile Include="Composite\LightNode.cs" />
     <Compile Include="Composite\LightTextNode.cs" />
+    <Compile Include="Composite\RemoveChildCommand.cs" />
     <Compile Include="Composite\TagCountVisitor.cs" />
     <Compile Include="Decorator\Armor.cs" />
     <Compile Include="Decorator\Hero.cs" />
