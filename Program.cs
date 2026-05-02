@@ -102,6 +102,11 @@ namespace StructuralPatternsLab
 			ul.Accept(visitor);
 			visitor.Print();
 
+			Console.WriteLine("\nState:");
+
+			li2.SetState(new HiddenState());
+			Console.WriteLine(ul.Render());
+
 
 			//		Console.WriteLine("\nЗавдання 6");
 			//		string[] lines = File.ReadAllLines("book.txt");

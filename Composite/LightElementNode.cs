@@ -13,6 +13,7 @@ namespace StructuralPatternsLab.Composite
 		private bool isSelfClosing;
 		private List<string> cssClasses;
 		private List<LightNode> children;
+		private IState state;
 
 		public LightElementNode(string tagName, bool isBlock, bool isSelfClosing)
 		{
@@ -21,6 +22,7 @@ namespace StructuralPatternsLab.Composite
 			this.isSelfClosing = isSelfClosing;
 			this.cssClasses = new List<string>();
 			this.children = new List<LightNode>();
+			this.state = new VisibleState();
 		}
 
 		protected override void OnCreated()
@@ -57,19 +59,7 @@ namespace StructuralPatternsLab.Composite
 
 		public override string OuterHTML()
 		{
-			string classes = "";
-
-			if (cssClasses.Count > 0)
-			{
-				classes = " class=\"" + string.Join(" ", cssClasses) + "\"";
-			}
-
-			if (isSelfClosing)
-			{
-				return $"<{tagName}{classes}/>";
-			}
-
-			return $"<{tagName}{classes}>{InnerHTML()}</{tagName}>";
+			return state.Render(this);
 		}
 
 		public List<LightNode> GetChildren()
@@ -89,6 +79,27 @@ namespace StructuralPatternsLab.Composite
 		public string GetTagName()
 		{
 			return tagName;
+		}
+
+		public void SetState(IState state)
+		{
+			this.state = state;
+		}
+		public string RenderHtml()
+		{
+			string classes = "";
+
+			if (cssClasses.Count > 0)
+			{
+				classes = " class=\"" + string.Join(" ", cssClasses) + "\"";
+			}
+
+			if (isSelfClosing)
+			{
+				return $"<{tagName}{classes}/>";
+			}
+
+			return $"<{tagName}{classes}>{InnerHTML()}</{tagName}>";
 		}
 	}
 }
