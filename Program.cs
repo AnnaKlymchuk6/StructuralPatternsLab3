@@ -107,6 +107,29 @@ namespace StructuralPatternsLab
 			li2.SetState(new HiddenState());
 			Console.WriteLine(ul.Render());
 
+			Console.WriteLine("\nObserver:");
+
+			var button = new LightElementNode("button", true, false);
+			button.AddChild(new LightTextNode("Click me"));
+
+			button.AddEventListener("click", () =>
+			{
+				Console.WriteLine("Button clicked!");
+			});
+
+			button.AddEventListener("mouseover", () =>
+			{
+				Console.WriteLine("Mouse over!");
+			});
+
+			Console.WriteLine(button.Render());
+
+			Console.WriteLine("\nTrigger click:");
+			button.TriggerEvent("click");
+
+			Console.WriteLine("\nTrigger mouseover:");
+			button.TriggerEvent("mouseover");
+
 
 			//		Console.WriteLine("\nЗавдання 6");
 			//		string[] lines = File.ReadAllLines("book.txt");
