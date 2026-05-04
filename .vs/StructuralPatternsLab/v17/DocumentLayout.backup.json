@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\composite\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:composite\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|c:\\anna\\uni\\2.2\\\u043A\u043F\u0437\\lab03\\structuralpatternslab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6035910-C343-4EE4-BF60-AE8E36C21892}|StructuralPatternsLab.csproj|C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\composite\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -234,25 +234,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LightElementNode.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightElementNode.cs",
               "RelativeDocumentMoniker": "Composite\\LightElementNode.cs",
-              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightElementNode.cs*",
-              "RelativeToolTip": "Composite\\LightElementNode.cs*",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAgwEQAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Composite\\LightElementNode.cs",
+              "RelativeToolTip": "Composite\\LightElementNode.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAawBEAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T19:56:01.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
+              "ToolTip": "C:\\Anna\\UNI\\2.2\\\u041A\u041F\u0417\\Lab03\\StructuralPatternsLab\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAAAIIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T14:47:04.684Z",

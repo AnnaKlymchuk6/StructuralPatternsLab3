@@ -55,3 +55,6 @@
 [LOG] File log
 [ERROR] File error
 [WARN] File warning
+[LOG] File log
+[ERROR] File error
+[WARN] File warning

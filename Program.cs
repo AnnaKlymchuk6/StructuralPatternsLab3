@@ -4,12 +4,13 @@ using StructuralPatternsLab.Composite;
 using StructuralPatternsLab.Decorator;
 using StructuralPatternsLab.Flyweight;
 using StructuralPatternsLab.Proxy;
+using StructuralPatternsLab.Strategy;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace StructuralPatternsLab
 {
@@ -129,6 +130,14 @@ namespace StructuralPatternsLab
 
 			Console.WriteLine("\nTrigger mouseover:");
 			button.TriggerEvent("mouseover");
+
+			Console.WriteLine("\nStrategy:");
+
+			var img1 = new ImageNode("image.png");
+			var img2 = new ImageNode("http://example.com/image.jpg");
+
+			Console.WriteLine(img1.OuterHTML());
+			Console.WriteLine(img2.OuterHTML());
 
 
 			//		Console.WriteLine("\nЗавдання 6");

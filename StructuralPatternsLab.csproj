@@ -83,6 +83,10 @@
     <Compile Include="Proxy\SmartTextChecker.cs" />
     <Compile Include="Proxy\SmartTextReader.cs" />
     <Compile Include="Proxy\SmartTextReaderLocker.cs" />
+    <Compile Include="Strategy\FileImageStrategy.cs" />
+    <Compile Include="Strategy\IImageStrategy.cs" />
+    <Compile Include="Strategy\ImageNode.cs" />
+    <Compile Include="Strategy\NetworkImageStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
