@@ -4,12 +4,13 @@ using StructuralPatternsLab.Composite;
 using StructuralPatternsLab.Decorator;
 using StructuralPatternsLab.Flyweight;
 using StructuralPatternsLab.Proxy;
+using StructuralPatternsLab.Strategy;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace StructuralPatternsLab
 {
@@ -106,6 +107,37 @@ namespace StructuralPatternsLab
 
 			li2.SetState(new HiddenState());
 			Console.WriteLine(ul.Render());
+
+			Console.WriteLine("\nObserver:");
+
+			var button = new LightElementNode("button", true, false);
+			button.AddChild(new LightTextNode("Click me"));
+
+			button.AddEventListener("click", () =>
+			{
+				Console.WriteLine("Button clicked!");
+			});
+
+			button.AddEventListener("mouseover", () =>
+			{
+				Console.WriteLine("Mouse over!");
+			});
+
+			Console.WriteLine(button.Render());
+
+			Console.WriteLine("\nTrigger click:");
+			button.TriggerEvent("click");
+
+			Console.WriteLine("\nTrigger mouseover:");
+			button.TriggerEvent("mouseover");
+
+			Console.WriteLine("\nStrategy:");
+
+			var img1 = new ImageNode("image.png");
+			var img2 = new ImageNode("http://example.com/image.jpg");
+
+			Console.WriteLine(img1.OuterHTML());
+			Console.WriteLine(img2.OuterHTML());
 
 
 			//		Console.WriteLine("\nЗавдання 6");

@@ -15,6 +15,8 @@ namespace StructuralPatternsLab.Composite
 		private List<LightNode> children;
 		private IState state;
 
+		private Dictionary<string, List<Action>> eventListeners = new Dictionary<string, List<Action>>();
+
 		public LightElementNode(string tagName, bool isBlock, bool isSelfClosing)
 		{
 			this.tagName = tagName;
@@ -43,6 +45,26 @@ namespace StructuralPatternsLab.Composite
 		public void AddChild(LightNode node)
 		{
 			children.Add(node);
+		}
+
+		public void AddEventListener(string eventName, Action listener)
+		{
+			if (!eventListeners.ContainsKey(eventName))
+			{
+				eventListeners[eventName] = new List<Action>();
+			}
+
+			eventListeners[eventName].Add(listener);
+		}
+		public void TriggerEvent(string eventName)
+		{
+			if (eventListeners.ContainsKey(eventName))
+			{
+				foreach (var listener in eventListeners[eventName])
+				{
+					listener();
+				}
+			}
 		}
 
 		public override string InnerHTML()
